@@ -2,6 +2,7 @@ name: workspace
 
 packages:
   - packages/**
+  - packages
 
 scripts:
   gen:goldens:

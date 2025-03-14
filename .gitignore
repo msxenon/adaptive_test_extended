@@ -34,3 +34,28 @@ build/
 
 # GOLDEN TESTS
 **/failures/
+example/multi_packages_app/app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+example/multi_packages_app/app/android/local.properties
+example/multi_packages_app/app/ios/Flutter/flutter_export_environment.sh
+example/multi_packages_app/app/ios/Flutter/Generated.xcconfig
+example/multi_packages_app/app/ios/Runner/GeneratedPluginRegistrant.h
+example/multi_packages_app/app/ios/Runner/GeneratedPluginRegistrant.m
+example/multi_packages_app/app/macos/Flutter/ephemeral/flutter_export_environment.sh
+example/multi_packages_app/app/macos/Flutter/ephemeral/Flutter-Generated.xcconfig
+example/multi_packages_app/theme/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+.gitignore
+example/multi_packages_app/theme/android/local.properties
+example/multi_packages_app/theme/ios/Flutter/flutter_export_environment.sh
+example/multi_packages_app/theme/ios/Flutter/Generated.xcconfig
+example/multi_packages_app/theme/ios/Runner/GeneratedPluginRegistrant.h
+example/multi_packages_app/theme/ios/Runner/GeneratedPluginRegistrant.m
+example/multi_packages_app/theme/macos/Flutter/ephemeral/flutter_export_environment.sh
+example/multi_packages_app/theme/macos/Flutter/ephemeral/Flutter-Generated.xcconfig
+example/simple_app/android/local.properties
+example/simple_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+example/simple_app/ios/Flutter/flutter_export_environment.sh
+example/simple_app/ios/Flutter/Generated.xcconfig
+example/simple_app/ios/Runner/GeneratedPluginRegistrant.h
+example/simple_app/ios/Runner/GeneratedPluginRegistrant.m
+example/simple_app/macos/Flutter/ephemeral/flutter_export_environment.sh
+example/simple_app/macos/Flutter/ephemeral/Flutter-Generated.xcconfig
