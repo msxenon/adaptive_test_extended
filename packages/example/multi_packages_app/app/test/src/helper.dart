@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 MaterialColor generateMaterialColor(Color color) {
-  return MaterialColor(color.value, {
+  return MaterialColor(color.toARGB32(), {
     50: tintColor(color, 0.9),
     100: tintColor(color, 0.8),
     200: tintColor(color, 0.6),
@@ -17,18 +17,18 @@ MaterialColor generateMaterialColor(Color color) {
 
 Color tintColor(Color color, double factor) {
   return Color.fromRGBO(
-    (color.red + ((255 - color.red) * factor)).round(),
-    (color.green + ((255 - color.green) * factor)).round(),
-    (color.blue + ((255 - color.blue) * factor)).round(),
+    (color.r + ((255 - color.r) * factor)).round(),
+    (color.g + ((255 - color.g) * factor)).round(),
+    (color.b + ((255 - color.b) * factor)).round(),
     1,
   );
 }
 
 Color shadeColor(Color color, double factor) {
   return Color.fromRGBO(
-    (color.red * factor).round(),
-    (color.green * factor).round(),
-    (color.blue * factor).round(),
+    (color.r * factor).round(),
+    (color.g * factor).round(),
+    (color.b * factor).round(),
     1,
   );
 }
