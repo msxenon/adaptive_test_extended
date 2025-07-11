@@ -110,7 +110,7 @@ See: https://api.flutter.dev/flutter/flutter_test/flutter_test-library.html
 
   /// Generates golden path for a given [WindowConfigData] and [Widget] type.
   static String _defaultGoldenFilePathFactory(WindowConfigData windowConfig, Type widgetType, String? suffix) {
-    final themeModeName = windowConfig.themeMode == null ? '' : ':${windowConfig.themeMode!.name}';
+    final themeModeName = windowConfig.themeMode == null ? '' : '_${windowConfig.themeMode!.name}';
     final localSuffix = suffix != null ? ReCase(suffix).snakeCase : '';
     const rootDirName = 'golden';
     String parentDirName = widgetType.toString().snakeCase;
